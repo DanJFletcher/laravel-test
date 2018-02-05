@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Changed Title
+                    Changed Title again
                 </div>
 
                 <div class="links">
