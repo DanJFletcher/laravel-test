@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravels
+                    quick maths
                 </div>
 
                 <div class="links">
