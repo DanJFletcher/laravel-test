@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    {{ $sub_domain }}... quick maths
+                    {{ $sub_domain }}... quick maths staging changes
                 </div>
 
                 <div class="links">
