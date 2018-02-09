@@ -15,3 +15,7 @@ Route::domain('cms.' . env('APP_DOMAIN'))->group(function () {
         return view('welcome');
     });
 });
+
+Route::domain('{sub_domain}.' . env('APP_DOMAIN'))->group(function () {
+    Route::get('/', 'BoomController@index');
+});
