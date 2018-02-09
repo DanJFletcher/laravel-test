@@ -10,7 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
+Route::domain('cms.' . env('APP_DOMAIN'))->group(function () {
+    Route::get('/', function () {
+        return view('welcome');
+    });
 });
